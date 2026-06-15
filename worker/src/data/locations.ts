@@ -1,0 +1,88 @@
+import type { Location } from '../types';
+
+export const locations: Location[] = [
+  {
+    id: '1',
+    name: 'Central Park',
+    description: 'Famous park in NYC spanning 843 acres in the heart of Manhattan',
+    latitude: 40.785091,
+    longitude: -73.968285,
+  },
+  {
+    id: '2',
+    name: 'Golden Gate Bridge',
+    description: 'Iconic suspension bridge connecting San Francisco to Marin County',
+    latitude: 37.8199,
+    longitude: -122.4783,
+  },
+  {
+    id: '3',
+    name: 'Statue of Liberty',
+    description: 'Colossal neoclassical sculpture on Liberty Island in New York Harbor',
+    latitude: 40.6892,
+    longitude: -74.0445,
+  },
+  {
+    id: '4',
+    name: 'Grand Canyon',
+    description: 'Steep-sided canyon carved by the Colorado River in Arizona',
+    latitude: 36.1069,
+    longitude: -112.1129,
+  },
+  {
+    id: '5',
+    name: 'Times Square',
+    description: 'Major commercial intersection and tourist destination in Midtown Manhattan',
+    latitude: 40.758,
+    longitude: -73.9855,
+  },
+  {
+    id: '6',
+    name: 'Hollywood Sign',
+    description: 'Landmark and American cultural icon located in the Hollywood Hills',
+    latitude: 34.1341,
+    longitude: -118.3215,
+  },
+  {
+    id: '7',
+    name: 'Space Needle',
+    description: 'Observation tower built for the 1962 World\'s Fair in Seattle',
+    latitude: 47.6205,
+    longitude: -122.3493,
+  },
+  {
+    id: '8',
+    name: 'Walt Disney World',
+    description: 'World-renowned entertainment resort complex in Orlando, Florida',
+    latitude: 28.3852,
+    longitude: -81.5639,
+  },
+  {
+    id: '9',
+    name: 'Alcatraz Island',
+    description: 'Small island with a famous former federal penitentiary in San Francisco Bay',
+    latitude: 37.8267,
+    longitude: -122.4233,
+  },
+  {
+    id: '10',
+    name: 'Mount Rushmore',
+    description: 'Massive sculpture carved into granite featuring four U.S. presidents',
+    latitude: 43.8791,
+    longitude: -103.4591,
+  },
+  {
+    id: '11',
+    name: 'Niagara Falls',
+    description: 'Group of three waterfalls straddling the U.S.–Canada border',
+    latitude: 43.0962,
+    longitude: -79.0377,
+  },
+  {
+    id: '12',
+    name: 'Las Vegas Strip',
+    description: 'Stretch of South Las Vegas Boulevard known for its concentration of casinos',
+    latitude: 36.1147,
+    longitude: -115.1728,
+  },
+];

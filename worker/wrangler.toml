@@ -1,0 +1,7 @@
+name = "draftbit-map-api"
+main = "src/index.ts"
+compatibility_date = "2025-06-01"
+
+# Local dev settings
+[dev]
+port = 8787
