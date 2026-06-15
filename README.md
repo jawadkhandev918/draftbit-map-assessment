@@ -65,7 +65,7 @@ Set `EXPO_PUBLIC_API_BASE_URL` in `.env` to the deployed Worker URL.
 **GitHub:**
 
 ```bash
-git remote add origin https://github.com/<your-username>/draftbit-map-assessment.git
+git remote add origin https://github.com/jawadkhandev918/draftbit-map-assessment.git
 git push -u origin main
 ```
 
